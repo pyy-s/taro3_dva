@@ -1,5 +1,5 @@
 // import { Effect, Reducer } from 'umi';
-
+import { Effect } from 'dva-core'
 // import { query as queryUsers } from '@/services/user';
 // import { queryCurrent } from '@/services/api'
 
@@ -27,6 +27,8 @@ export interface UserModelType {
     effects: {
         // fetch: Effect;
         // fetchCurrent: Effect;
+
+        cc: Effect;
     };
     reducers: {
         // saveCurrentUser: Reducer<UserModelState>;

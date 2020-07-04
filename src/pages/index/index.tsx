@@ -2,14 +2,14 @@ import React from 'react'
 import { View, Button, Text } from '@tarojs/components'
 import { connect } from 'react-redux'
 import './index.less'
-import { IIndexPageProps } from './inderface'
+import { IIndexPageProps } from './index.inderface'
 
 const IndexPage: React.FC<IIndexPageProps> = (props) => {
     const { dispatch } = props
     function handleClick() {
         dispatch({
             type: 'user/cc',
-            payload: 222222222222222
+            payload: '123'
         })
     }
     return (
